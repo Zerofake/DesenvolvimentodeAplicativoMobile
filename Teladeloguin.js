@@ -58,6 +58,8 @@ export default function Teladeloguin() {
         
         ></TextInput>
 
+      
+          
           <Text style={styles.EsqeSenha}> Esqueci senha</Text>
 
             </View>
@@ -68,12 +70,12 @@ export default function Teladeloguin() {
         <Text>Logar</Text>
 
        </TouchableOpacity>
-        <Text style={styles.TOU}>Ou</Text>
-
-        <TouchableOpacity style={styles.EDB}>
-            Registrar-se
+        <View style={styles.TudoAlinhado}>
+  <Text style={styles.TOU}>Precisando de uma conta?</Text> 
+        <TouchableOpacity style={styles.OTE}>
+        Registrar-se
         </TouchableOpacity>
-
+  </View>
 
     </KeyboardAvoidingView>
 
@@ -84,9 +86,7 @@ export default function Teladeloguin() {
 
 
 
-      <Text style={{color: '#888', fontSize: 18}}> 
-        To share a photo from your phone with a friend, just press the button below!
-      </Text>
+      
     </View>
 
 
@@ -105,15 +105,15 @@ export default function Teladeloguin() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#00fbff',
-    alignItems: 'center',
-    justifyContent: 'center',
+  //  backgroundColor: '#00fbff',
+   // alignItems: 'center',
+   // justifyContent: 'center',
 
   },
 
 
 BOM:{
-  backgroundColor: '#FFA07A',
+ // backgroundColor: '#FFA07A',
      //   flex: 1,
      //   AlignItems: 'center',
      //   justifyContente: 'center',
@@ -124,31 +124,34 @@ BOM:{
 
     IN:{// aqui onde estiliza os input
         backgroundColor: '#FFF',
-        marginBottom: 10,
+        marginBottom: 2,
        padding: 10,
       textAlign: 'center', //Alinhamento do texto do input
        // flex: 1,
       //  AlignItems: 'center',
         justifyContente: 'center',
-       width: 200,
+       width: '100%',
       // height: 200,
-      //  borderColor: 'blue',
-      //  borderStyle: "solid",
-       // borderWidth: '2px'
+     borderColor: '#73748c',
+      borderStyle:"solid",
+       borderWidth: '1px'
       
 
     },
 
     EDB:{ // estilo dos botões
-
-       borderWidth: '1px',
-       borderRadius: 4,
-        width: 200,
-      backgroundColor: "#0095ff", // cor vermelha
+  
+       borderWidth: '2px',
+       borderRadius: 7,
+        width: 250,
+      backgroundColor: "#ffdA00", // cor Amarelo
       textAlign: 'center', 
+      borderColor: "dd2929", // vermelho
+      padding: 6,
+      marginLeft:50,
     },
-TOU:{// centralizar o Text OU 
-  textAlign: 'center',
+TOU:{// centralizar o Text Precisando de uma conta
+  marginTop: 10,
 
 },
 
@@ -162,16 +165,32 @@ margin: 10,
 Esqemail:{ // estilo de  texto ali no <Text  esqueci email
 fontSize: 12, // tamanho da letra
 color: 'blue',
-marginLeft: 120,
+marginLeft: 250,// era 120
+marginBottom: 8,
 
 
 },
 EsqeSenha:{// estilo do esqueci senha
 color: 'blue',
 fontSize: 12,
-marginLeft: 120,
+marginLeft: 250, // era 120 de espaço
+marginBottom: 8,
 
-}
+},
+
+OTE:{// o texto de registro
+
+  color:'#00bbff',
+  marginBottom: 40,
+  marginLeft: 200,
+},
+
+TudoAlinhado:{
+ //flex: ,
+ justifyContent:'end', 
+ alignItems: 'flex-end',
+},
+
 
 
 });
@@ -192,4 +211,11 @@ function TeladeLoguin () {
    };
 
 */
+
+
+
+
+
+
+
 
