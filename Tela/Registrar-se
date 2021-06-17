@@ -8,7 +8,7 @@ TouchableOpacity , marginBotton,
 
 } from 'react-native';
 
-export default function Teladeloguin() {
+export default function Registrar() {
   return (
     <View style={styles.container}>
       
