@@ -76,7 +76,7 @@ export default function Teladeloguin() {
         style={styles.IN}
 
 
-        placeholder="Confirmação de Email"
+        placeholder="Senha"
         autoCorrect={false}
         onChangeText= {() => {}}
         
