@@ -1,4 +1,35 @@
-<View >
+import React from 'react';
+import { Image, StyleSheet, Text, View, TextInputAndroidProps, 
+TextInput, 
+KeyboardAvoidingView ,
+TouchableOpacity , marginBotton,Button,Alert,
+ onPress, title,
+
+
+
+
+
+} from 'react-native';
+
+export default function Teladeloguin() {
+  return (
+    <View style={styles.container}>
+        <View style={styles.OTE}>
+      <TouchableOpacity>
+          Voltar
+        </TouchableOpacity>
+  </View>
+    
+    
+  
+   <KeyboardAvoidingView style={styles.BOM}>
+        <View>
+
+  
+
+        </View>
+
+    <View >
         <TextInput
         style={styles.IN}
         
@@ -98,15 +129,4 @@ const styles = StyleSheet.create({
   });
   
   
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
