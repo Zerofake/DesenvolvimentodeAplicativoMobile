@@ -4,7 +4,15 @@ TextInput,
 KeyboardAvoidingView ,
 TouchableOpacity , marginBotton,
 
-
+import Registrarse from './Tela/Registrarse' ;
+        
+import Confirmacaodeemail from './Tela/Confirmacaodeemail' ;
+        
+import Teladeloguin from  './Tela/Teladeloguin';
+        
+        
+        
+        
 
 } from 'react-native';
 
