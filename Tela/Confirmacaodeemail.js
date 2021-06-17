@@ -5,11 +5,11 @@ KeyboardAvoidingView ,
 TouchableOpacity , marginBotton,Button,Alert,
  onPress, title,
 
-import Teladeloguin from './Tela/Teladeloguin ';
+import Teladeloguin from './Teladeloguin ';
 
-import Registrarse from './Tela/Registrarse ' ;
+import Registrarse from './Registrarse ' ;
         
-import Confirmacaodeemail from './Tela/Confirmacaodeemail';
+import Confirmacaodeemail from './Confirmacaodeemail';
 
 
 
