@@ -3,9 +3,19 @@ import { Image, StyleSheet, Text, View, TextInputAndroidProps,
 TextInput, 
 KeyboardAvoidingView ,
 TouchableOpacity ,
-
-
+        
+     
 } from 'react-native';
+
+
+import Teladeloguin from './Teladeloguin';
+import Home from '../screens/Home';
+
+
+
+
+
+
 
 export default function Teladeloguin() {
   return (
