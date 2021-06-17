@@ -15,7 +15,7 @@ import Confirmacaodeemail from './Confirmacaodeemail';
 
 } from 'react-native';
 
-export default function Teladeloguin() {
+export default function ConfirmaCodigo() {
   return (
     <View style={styles.container}>
         <View style={styles.OTE}>
