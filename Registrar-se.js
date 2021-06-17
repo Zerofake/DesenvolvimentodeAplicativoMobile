@@ -142,7 +142,7 @@ BOM:{
 
     IN:{// aqui onde estiliza os input
         backgroundColor: '#FFF',
-        marginBottom: 3,
+        marginBottom: 4,
        padding: 10,
       textAlign: 'center', //Alinhamento do texto do input
        // flex: 1,
@@ -167,6 +167,7 @@ BOM:{
       borderColor: "#dd2929", // vermelho
       padding: 6,
       marginLeft:50,
+      marginTop: 20,
     },
 TOU:{// centralizar o Text Precisando de uma conta
   marginTop: 10,
@@ -211,3 +212,4 @@ function TeladeLoguin () {
    
    };
 */
+
